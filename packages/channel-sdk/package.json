@@ -1,0 +1,11 @@
+{
+  "name": "@agentos/channel-sdk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Channel SDK not scaffolded yet'",
+    "lint": "echo 'No lint configured yet'",
+    "test": "echo 'No tests configured yet'",
+    "typecheck": "echo 'No typecheck configured yet'"
+  }
+}

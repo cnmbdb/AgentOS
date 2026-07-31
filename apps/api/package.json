@@ -1,0 +1,12 @@
+{
+  "name": "@agentos/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'API framework not scaffolded yet'",
+    "build": "echo 'API framework not scaffolded yet'",
+    "lint": "echo 'No lint configured yet'",
+    "test": "echo 'No tests configured yet'",
+    "typecheck": "echo 'No typecheck configured yet'"
+  }
+}

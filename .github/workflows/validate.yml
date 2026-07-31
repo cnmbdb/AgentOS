@@ -1,0 +1,17 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  repository-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate package manifests
+        run: node -e "for (const f of ['package.json','apps/web/package.json','apps/api/package.json','packages/shared/package.json','packages/channel-sdk/package.json','packages/plugin-sdk/package.json']) JSON.parse(require('fs').readFileSync(f,'utf8'));"

@@ -1,0 +1,11 @@
+{
+  "name": "@agentos/plugin-sdk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Plugin SDK not scaffolded yet'",
+    "lint": "echo 'No lint configured yet'",
+    "test": "echo 'No tests configured yet'",
+    "typecheck": "echo 'No typecheck configured yet'"
+  }
+}

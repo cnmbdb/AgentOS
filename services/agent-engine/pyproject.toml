@@ -1,0 +1,9 @@
+[project]
+name = "agentos-agent-engine"
+version = "0.1.0"
+description = "Agent execution engine for AgentOS"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.ruff]
+line-length = 100
